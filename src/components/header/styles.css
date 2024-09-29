@@ -1,0 +1,11 @@
+.shw-header {
+    height: 70px;
+    background-color: var(--shw-color-bg-primary);
+}
+
+.shw-header-content {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: var(--shw-color-font-white);
+}

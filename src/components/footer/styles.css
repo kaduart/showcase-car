@@ -1,0 +1,28 @@
+.shw-footer {
+    height: 90px;
+    background-color: var(--shw-color-bg-primary);
+}
+
+.show-footer-contents {
+    padding: 24px;
+}
+
+.show-footer-content {
+    display: flex;
+    justify-content: center;
+    color: var(--shw-color-font-white);
+
+    .shw-footer-img {
+        margin: 3px;
+        max-width: 15px;
+
+    }
+}
+
+@media (min-width: 576px) {
+    .show-footer-contents {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+    }
+}
